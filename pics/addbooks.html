@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADD BOOK</title>
+    <link rel="stylesheet" href="./addbooks.css">
+</head>
+<body >
+    <div class="home">
+    <div class="image" >
+        <div class="name">
+        <label for="authorName"> AuthorName:</label>
+        <input type="text" id="authorname" name="authorname" placeholder="Enter Author Name" >
+         </div>
+        <br>
+        <br>
+        <div class="title">
+        <label for="booktitle">   BookTitle:</label>
+        <input type="text" id="BookTitle" name="booktitle" placeholder="Enter BookTitle">
+        </div>
+        <br>
+        <br>
+        <div class="isbn">
+        <label for="isbn"> Isbn :</label>
+        <input type="text" id="isbn" name="isbn" placeholder="Enter Isbn">
+        </div>
+        <br>
+        <br>
+        <div class="academic">
+        <label for="isAcaddemic">isAcademic:</label>
+        <input type="text" id="isacademic" name="isacademic" placeholder="True or False">
+        </div>
+        <br>
+        <br>
+        <div class="stock">
+        <label for="stock">  Stock:</label>
+        <input type="text" id="stock" name="stock" placeholder="Enter Stock">
+        </div>
+        <br>
+        <br>
+      
+        <button onclick="myfunction()">Save</button>
+       <script>
+           function myfunction(){
+               alert("Book Added to Library");
+           }
+       </script>
+       <div class="back">
+       <a href="javascript: history.go(-1)">Back</a>
+       </div>
+    </div>
+    </div>
+</body>
+</html>

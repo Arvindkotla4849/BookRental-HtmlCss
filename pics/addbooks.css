@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(231, 193, 156);
+}
+
+.image{
+    background-image: url("./15.jpg");
+    width: 900px;
+    height: 600px;
+    margin: 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.home{
+    width: 900px;
+    height: 580px;
+    margin: 0px auto;
+    background-color: aqua;
+
+}
+.name{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(230,160,131);
+    padding: 3%;
+}
+.title{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(233,160,131);
+    padding: 3%;
+}
+.isbn{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(233,160,131);
+    padding: 3%;
+}
+.academic{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(233,160,131);
+    padding: 3%;
+}
+.stock{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(233,160,131);
+    padding: 3%;
+}
+.back{
+    width: 3%;
+    height:2%;
+    background-color: white;
+    padding: 1%;
+}

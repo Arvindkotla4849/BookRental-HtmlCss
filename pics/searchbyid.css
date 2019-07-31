@@ -1,0 +1,34 @@
+body{
+    background-color: mintcream;
+}
+.searchbyA{
+
+    display: flex;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    border: rgb(98, 89, 218);
+}
+.image{
+    background-image: url("./32.jpg");
+    width: 900px;
+    height: 600px;
+    margin: 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.isbn{
+    width: 18%;
+    height: 3%;
+    background-color: rgb(215, 224, 230);
+    padding: 3%;
+
+}
+.back{
+    width: 25%;
+    height:30%;
+    background-color: rgb(243, 237, 237);
+    
+}

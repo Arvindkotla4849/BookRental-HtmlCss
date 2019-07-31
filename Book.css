@@ -1,0 +1,84 @@
+body{
+    background-color:cornsilk;
+}
+.first{
+
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+}
+.nav{
+   
+    text-anchor: middle;
+    float: right;
+    width: 28%;
+    height: 65%;
+    background-color: rgb(218, 175, 109);
+    
+    
+}
+.add{
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    padding: 5%;
+    transition: width 1s;
+}
+
+.print{
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    padding: 5%;
+    transition: width 1s;
+
+}
+.search{
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    padding: 5%;
+    transition: width 1s;
+
+}
+.searchi{
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    padding: 5%;
+    transition: width 1s;
+
+}
+.delete{
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    padding: 5%;
+    transition: width 1s;
+
+}
+a:hover{
+    background-color: skyblue;
+    width: 300px;
+    
+}
+.transition{
+ 
+    transition: width 2s;
+}
+
+.add:hover{
+    width: 85%;
+}
+.print:hover{
+    width: 85%;
+}
+.search:hover{
+    width:85%;
+}
+.searchi:hover{
+    width: 85%;
+}
+.delete:hover{
+    width: 85%;
+}

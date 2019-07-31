@@ -1,0 +1,23 @@
+body{
+    background-color:lightcoral;
+}
+.DeleteByid{
+     width: 900px;
+     height: 600px;
+     background-image: url("./3.jpg");
+     padding: 1px;
+     
+}
+.back{
+    width: 3%;
+    height:2%;
+    background-color: white;
+    padding: 2%;
+}
+.delete{
+    width: 18%;
+    height: 10%;
+    background-color: rgb(215, 224, 230);
+    padding: 3%;
+
+}
